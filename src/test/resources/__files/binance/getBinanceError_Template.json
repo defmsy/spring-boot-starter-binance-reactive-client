@@ -1,0 +1,4 @@
+{
+  "code": "{{parameters.code}}",
+  "msg": "{{parameters.msg}}"
+}

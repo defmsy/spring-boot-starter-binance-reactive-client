@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "defaultValue": true,
+      "name": "binance.webclient.enabled",
+      "description": "Enables the use of Binance WebClient.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "binance.webclient.base-url",
+      "description": "Binance Api base URL.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "binance.webclient.api-key",
+      "description": "Binance Api Key.",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "binance.webclient.secret-key",
+      "description": "Binance Secret Key.",
+      "type": "java.lang.String"
+    }
+  ]
+}
