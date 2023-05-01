@@ -25,7 +25,7 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Build
-        uses: gradle/gradle-build-action@v2.1.4
+        uses: gradle/gradle-build-action@v2.4.2
         with:
           arguments: build -x test
 
@@ -47,7 +47,7 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Gradle test
-        uses: gradle/gradle-build-action@v2.1.4
+        uses: gradle/gradle-build-action@v2.4.2
         with:
           arguments: test
       - name: Publish Test Results
